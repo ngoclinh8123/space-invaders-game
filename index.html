@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders Game</title>
+    <link rel="icon" href="/img/logo.png" type="image/png" />
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="position: relative">
+      <p
+        style="
+          position: absolute;
+          z-index: 10;
+          color: white;
+          left: 10px;
+          top: 10px;
+          margin: 0;
+          font-family: sans-serif;
+          font-size: 14px;
+        "
+      >
+        <span>Score:</span><span id="scoreEl">0</span>
+      </p>
+      <canvas></canvas>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- dong 72 - this.radius :chinh kich thuoc dan cua may bay -->
+<!-- dong 494 - case " " velocity y :chinh toc do dan cua may bay -->
+<!-- dong 78 - chinh mau dan may bay -->
+<!-- dong 365 - chinh mau may bay no -->
+
+<!-- dong 210 - class Grid velocity x : chinh toc do invader -->
+<!-- dong 242 - this.velocity.y = 30 : chinh moi lan xuong 1 dong (=30 vi chieu cao anh bang 30) -->
+<!-- dong 305 - chinh mau invader no  -->
+<!-- dong 133 - chinh mau dan invader -->
+<!-- dong 385 - chinh tan suat roi dan cua invader (mac dinh 100) -->
+
+<!-- dong 414 - chinh diem cong -->
+<!-- dong 275 - cho vong lap for ben ngoai : chinh background nhieu sao 
+            dong 284 - toc do sao
+            dong 286 - kich thuoc sao
+-->
